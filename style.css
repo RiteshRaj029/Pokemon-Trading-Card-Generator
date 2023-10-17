@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    margin-top: 50px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+}
+
+#card{
+    position: relative;
+    background: radial-gradient(circle at 50% 0%, orange 36%, white 36%);
+    width: 100%;
+    padding: 30px 20px;
+    border: 1px solid black;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+#card img{
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.hp{
+    width: 70px;
+    background-color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    margin-left: auto;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+.poke-name{
+    text-align: center;
+    font-weight: 600;
+}
+
+.types{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0 30px 0;
+}
+
+.hp span, .types span{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.stats span{
+    color: grey;
+}
+
+#btn{
+    position: relative;
+    display: block;
+    padding: 10px 60px;
+    background-color: black;
+    color: white;
+    margin: 40px auto;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
