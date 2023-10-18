@@ -5,7 +5,7 @@ const btn = document.getElementById("btn");
 
 
 getPokeData = ()=>{
-    let id = Math.floor(Math.random() * 100) + 1;
+    let id = Math.floor(Math.random() * 101);
     const finalUrl = url + id ;
      fetch(finalUrl)
     .then((response) => response.json())
