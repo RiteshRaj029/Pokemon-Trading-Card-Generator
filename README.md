@@ -1,13 +1,6 @@
 # Pokemon-Trading-Card-Generator
 
-
-
-
-
-
-![Screenshot (48)](https://github.com/RiteshRaj029/Pokemon-Trading-Card-Generator/assets/145767230/e7474edc-5a04-4f98-a1d3-a6b6f7fea876)
-
-
+![image](https://github.com/RiteshRaj029/Pokemon-Trading-Card-Generator/assets/145767230/317a057c-39e0-481e-b54a-b9e70f27a27c)
 
 This is a Pokemon Card Generator (1-500) with the card showing pokemon's name, HP , type(s) , image and stats[attack, defense and speed]. 
 This is created using the Poke API: "https://pokeapi.co/".
